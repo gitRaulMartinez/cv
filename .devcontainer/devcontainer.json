@@ -1,0 +1,15 @@
+{
+    "name": "Node",
+    "image": "node:18-alpine",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+			"extensions": [
+				"EditorConfig.EditorConfig",
+				"GitHub.github-vscode-theme",
+				"adrianwilczynski.alpine-js-intellisense"
+			]
+        }
+    },
+    "appPort": ["3000:5173"]
+}
