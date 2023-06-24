@@ -2,14 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/assets/images/avatar.png" />
+    <link rel="icon" type="image/svg+xml" href="/images/perfil.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Raul Martinez</title>
   </head>
   <body>
     <header>
-      <h1>Hola mundo</h1>
+      <div class="content-header">
+        <img src="/images/logoR.svg" alt="Logo de curriculum vitae" class="logo">
+        <ul>
+          <li>
+            <a href="#home">Inicio</a>
+          </li>
+          <li>
+            <a href="#contact">Contacto</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portafolio</a>
+          </li>
+        </ul>
+      </div>
     </header>
-    <script type="module" src="/main.js"></script>
+    <main>
+      <section class="content-main home" id="home">
+        <div>
+          <p class="presentation">Hola soy</p>
+          <p class="name">Raúl Martinez</p>
+          <p class="paragraph">Me dedico al desarrollo full stack y me apasiona la programación.</p>
+          <p class="paragraph">Disfruto construir aplicaciones web completas, desde el desarrollo</p>
+          <p class="paragraph">del backend hasta la implementación del frontend..</p>
+        </div>
+        <div>
+          Soy mas texto
+        </div>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
   </body>
 </html>

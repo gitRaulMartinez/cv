@@ -1,0 +1,108 @@
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1D1D20;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px rgb(197, 197, 197) solid;
+    background-color: #1D1D20;
+}
+
+header .content-header {
+    flex-basis: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+header .content-header .logo{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+header ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 600;
+    transition: all ease-in-out 0.2s;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    background-color: rgba(248, 248, 255, 0.1);
+}
+
+header ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 1rem;
+}
+
+header ul li:last-child {
+    margin-right: 0rem;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content-main {
+    width: 100%;
+    max-width: 1150px;
+    height: calc(100vh - 51px);
+}
+
+main .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .home .name {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+main .home .presentation {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main .home .paragraph {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
