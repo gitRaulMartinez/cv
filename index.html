@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Raul Martinez</title>
   </head>
   <body>
@@ -17,7 +18,7 @@
       <div class="content-header">
         <div class="logo-letters">
           <span>&lt;</span>
-          <span>Raúl</span>
+          <span>R</span>
           <span>/></span>
         </div>
         <ul>
@@ -25,10 +26,7 @@
             <a href="#home">Inicio</a>
           </li>
           <li>
-            <a href="#contact">Contacto</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portafolio</a>
+            <a href="#modal-open" id="button-open-modal">Resumen CV</a>
           </li>
         </ul>
       </div>
@@ -36,59 +34,324 @@
     <main>
       <section class="content-main home" id="home">
         <div class="content-presentation">
+          <div class="contact-me">
+            <a href="https://www.linkedin.com/in/raul-martinez-in/" target="_blank" class="linkedin-hover"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/gitRaulMartinez" target="_blank" class="github-hover"><i class="fa-brands fa-github"></i></a>
+            <a href="https://wa.me/543878604796" target="_blank" class="whatsapp-hover"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:rauldeoran17@gmail.com" target="_blank" class="email-hover"><i class="fa-regular fa-envelope"></i></a>
+          </div>
           <p class="presentation">Hola soy</p>
           <p class="name">Raúl Martinez</p>
-          <p class="paragraph">Me dedico al desarrollo full stack y me apasiona la programación.</p>
-          <p class="paragraph">Disfruto construir aplicaciones web completas, desde el desarrollo</p>
-          <p class="paragraph">del backend hasta la implementación del frontend.</p>
+          <p class="paragraph">Soy Desarrollador full stack y me apasiona la programación.</p>
+          <p class="paragraph">Disfruto construir aplicaciones web completas, desde el desarrollo <br>del backend hasta la implementación del frontend.</p>
+          <div class="btns-download">
+            <a type="button" class="btn-white" href="/pdf/raulmartinezcv.pdf" download=""><span>Descargar CV</span></a>
+          </div>
         </div>
         <div class="diagonal">
-          <div class="row-images to-right-row-1">
-            <img src="/images/c++.png" alt="">
-            <img src="/images/java.png" alt="">
-            <img src="/images/python.png" alt="">
-            <img src="/images/php.png" alt="">
-            <img src="/images/haskell.png" alt="">
-            <img src="/images/dart.svg" alt="">
+          <div class="background-left-gradient"></div>
+          <div class="background-right-gradient"></div>
+          <div class="background-middle-gradient"></div>
+          <div class="to-responsive-img">
+            <div class="row-images to-right-row-1">
+              <img src="/images/c++.png" alt="">
+              <img src="/images/java.png" alt="">
+              <img src="/images/python.png" alt="">
+              <img src="/images/php.png" alt="">
+              <img src="/images/haskell.png" alt="">
+              <img src="/images/dart.svg" alt="">
+            </div>
+            <div class="row-images to-right-row-2">
+              <img src="/images/bootstrap.png" alt="">
+              <img src="/images/tailwind.png" alt="">
+              <img src="/images/d3.png" alt="">
+              <img src="/images/postman.png" alt="">
+              <img src="/images/jquery.png" alt="">
+            </div>
           </div>
-          <div class="row-images to-right-row-2">
-            <img src="/images/bootstrap.png" alt="">
-            <img src="/images/tailwind.png" alt="">
-            <img src="/images/d3.png" alt="">
-            <img src="/images/postman.png" alt="">
-            <img src="/images/jquery.png" alt="">
+          <div class="to-responsive-img">
+            <div class="row-images to-right-row-3">
+              <img src="/images/angular.png" alt="">
+              <img src="/images/react.png" alt="">
+              <img src="/images/vue.png" alt="">
+              <img src="/images/flutter.png" alt="">
+              <img src="/images/nodejs.png" alt="">
+              <img src="/images/springboot.png" alt="">
+            </div>
+            <div class="row-images to-right-row-4">
+              <img src="/images/html.png" alt="">
+              <img src="/images/css.png" alt="">
+              <img src="/images/js.png" alt="">
+              <img src="/images/ts.png" alt="">
+            </div>
+            <div class="row-images to-right-row-5">
+              <img src="/images/mariadb.png" alt="">
+              <img src="/images/mysql.png" alt="">
+              <img src="/images/postgres.png" alt="">
+              <img src="/images/mongo.png" alt="">
+            </div>
           </div>
-          <div class="row-images to-right-row-3">
-            <img src="/images/angular.png" alt="">
-            <img src="/images/react.png" alt="">
-            <img src="/images/vue.png" alt="">
-            <img src="/images/alpine.svg" alt="">
-            <img src="/images/flutter.png" alt="">
-            <img src="/images/nodejs.png" alt="">
-            <img src="/images/springboot.png" alt="">
-          </div>
-          <div class="row-images to-right-row-4">
-            <img src="/images/html.png" alt="">
-            <img src="/images/css.png" alt="">
-            <img src="/images/js.png" alt="">
-            <img src="/images/ts.png" alt="">
-          </div>
-          <div class="row-images to-right-row-5">
-            <img src="/images/mariadb.png" alt="">
-            <img src="/images/mysql.png" alt="">
-            <img src="/images/postgres.png" alt="">
-            <img src="/images/mongo.png" alt="">
-          </div>
-        </div>
-      </section>
-      <section class="content-main">
-        <div class="diving-line">
-          <div class="line"></div>
-          <div class="circle"></div>
-          <div class="line"></div>
         </div>
       </section>
     </main>
+    <!-- CV Resme -->
+    <div class="cv" id="cv">
+      <div class="l-header-cv" id="header"> <!--Cabezera CV-->
+        <nav class="nav-cv">
+          <a href="#" class="nav__logo">Martinez</a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bxs-grid' ></i>
+          </div>
+        </nav>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">
+              <i class='bx bx-home nav__icon' ></i>Inicio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#profile" class="nav__link">
+              <i class='bx bx-user nav__icon' ></i>Perfil
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">
+              <i class='bx bx-book-alt nav__icon' ></i>Educación
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class='bx bx-receipt nav__icon' ></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#experiencie" class="nav__link">
+              <i class='bx bx-briefcase nav__icon' ></i>Experiencia
+            </a>
+          </li>  
+          <li class="nav__item">
+            <a href="#certificates" class="nav__link">
+              <i class='bx bx-award nav__icon' ></i>Certificados
+            </a>
+          </li>  
+        </ul>
+      </div>
+      <div class="bts-actions-cv">
+        <a href="/pdf/raulmartinezcv.pdf" class="btn-action-cv download-content-cv" title="Descargar CV" id="to-pdf">
+          <i class='bx bx-download'></i>
+        </a>
+        <button class="btn-action-cv" title="Descargar CV" id="close-modal-cv">
+          <i class='bx bx-x' ></i>
+        </button>
+      </div>
+      <div class="container-cv">
+        <button class="btn-action-cv-2" title="Descargar CV" id="close-modal-cv-2">
+          <i class='bx bx-x' ></i>
+        </button>
+        <div class="l-main-cv bd-container-cv">
+          <div class="resume-cv" id="area-cv">
+            <div class="resume__left">
+              <section class="home-cv" id="home">
+                <div class="home__container section bd-grid">
+                  <div class="home__data bd-grid">
+                    <img src="/images/perfil.jpg" alt="Perfil" class="home__img"> <!--Perfil-->
+                    <h1 class="home__title">MARTINEZ RAUL</h1>
+                    <h3 class="home__profession">Full Stack Developer</h3>
+                    <div>
+                      <a download href="/pdf/raulmartinezcv.pdf" class="home__button-movil">Descargar</a> <!--PDF-->
+                    </div>
+                  </div>
+                  <div class="home__address bd-grid-cv">
+                    <span class="home__information">
+                      <i class='bx bx-map home__icon'></i>Oran - Salta - Argentina
+                    </span>
+                    <span class="home__information">
+                      <i class='bx bx-envelope home__icon' ></i>raulmartinez.desarrollador<br>@gmail.com
+                    </span>
+                    <span class="home__information">
+                      <i class='bx bx-phone home__icon' ></i>+54 9 3878 604796
+                    </span>
+                  </div>
+                </div>
+              </section>
+              <section class="profile-cv section-cv" id="profile">
+                <h2 class="section-title-cv">
+                  PERFIL
+                </h2>
+                <p class="profile__description">
+                  Me destaco por ser una persona altamente resolutiva y creativa a la hora de enfrentar problemas. Puedo trabajar en diferentes lenguajes y entornos de desarrollo, siempre enfocado en seguir aprendiendo y creciendo profesionalmente.
+                </p>
+              </section>
+              <section class="social-cv section-cv">
+                <h2 class="section-title-cv">
+                  SOCIAL
+                </h2>
+                <div class="social__container bd-grid-cv">
+                  <a href="https://www.linkedin.com/in/raul-martinez-in/" target="_blank" class="social__link">
+                    <i class='bx bxl-linkedin-square social__icon' ></i> Linkedin
+                  </a>
+                  <a href="https://www.facebook.com/raulmartinezface" target="_blank" class="social__link">
+                    <i class='bx bxl-facebook-square social__icon' ></i> Facebook
+                  </a>
+                  <a href="https://github.com/gitRaulMartinez" target="_blank" class="social__link">
+                    <i class='bx bxl-github social__icon' ></i> GitHub
+                  </a>
+                </div>
+              </section>
+              <section class="skills-sections-cv" id="skills">
+                <h2 class="section-title-cv">HABILIDADES</h2>
+                <div class="skills__content bd-grid-cv">
+                  <ul class="skills__data">
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>Html
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>Css
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>JavaScript
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>Python
+                    </li>
+                  </ul>
+                  <ul class="skills__data">
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>Angular
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>Vue
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>React
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span>Node
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <div class="resume__right">
+              <section class="education-cv section-cv" id="education">
+                <h2 class="section-title-cv">
+                  EDUCACIÓN
+                </h2>
+                <div class="education__container bd-grid-cv">
+                  <div class="education__content">
+                    <div class="education__time">
+                      <span class="education__rounder"></span>
+                      <span class="education__line"></span>
+                    </div>
+                    <div class="education__data bd-grid-cv">
+                      <h3 class="education__title">MAESTRO MAYOR DE OBRAS</h3>
+                      <span class="education__studies">Escuela de Educación Técnica N° 3134</span>
+                      <span class="education__year">2013</span>
+                    </div>
+                  </div>
+                  <div class="education__content">
+                    <div class="education__time">
+                      <span class="education__rounder"></span>
+                    </div>
+                    <div class="education__data bd-grid-cv">
+                      <h3 class="education__title">TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN</h3>
+                      <span class="education__studies">Universidad Nacional de Salta - Sede Oran</span>
+                      <span class="education__year">2023</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="experiencie-cv section-cv" id="experiencie">
+                <h2 class="section-title-cv">EXPERIENCIA</h2>
+                <div class="experiencie__container bd-grid-cv">
+                  <div class="experiencie__content">
+                    <div class="experiencie__time">
+                      <span class="experiencie__rounder"></span>
+                      <span class="experiencie__line"></span>
+                    </div>
+                    <div class="experiencie__data bd-grid-cv">
+                      <h3 class="experiencie__title">Auxiliar Docente de la asignatura Programación</h3>
+                      <span class="experiencie__company">Universidad Nacional de Salta - Sede Oran | 2019 - 2021</span>
+                      <p class="experiencie__description">Me desempeñe como auxiliar docente para la asignatura de programación de la carrera Tecnicatura en informatica y gestión.</p>
+                    </div>
+                  </div>
+                  <div class="experiencie__content">
+                    <div class="experiencie__time">
+                      <span class="experiencie__rounder"></span>
+                    </div>
+                    <div class="experiencie__data bd-grid-cv">
+                      <h3 class="experiencie__title">Desarrollador web</h3>
+                      <span class="experiencie__company">Safetynova | 2022 - 2023</span>
+                      <p class="experiencie__description">Desarrollo en entorno web una aplicacion para controlar inspecciones.</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="certificate-cv section-cv" id="certificate">
+                <h2 class="section-title-cv">CERTIFICADOS</h2>
+                <div class="certificate___container bd-grid-cv">
+                  <div class="certificate__content">
+                    <h3 class="certificate__title">
+                      Bootcamp Node.js Developer
+                    </h3>
+                    <p class="certificate__description">
+                      Curso backend de nodejs certificado por Telecom IT
+                    </p>
+                  </div>
+                  <div class="certificate__content">
+                    <h3 class="certificate__title">
+                      Responsive Web Design
+                    </h3>
+                    <p class="certificate__description">
+                      de freeCodeCamp.org, que representa aproximadamente 300 horas de trabajo de curso.
+                    </p>
+                  </div>
+                  <div class="certificate__content">
+                    <h3 class="certificate__title">
+                      JavaScript Algorithms and Data Structures
+                    </h3>
+                    <p class="certificate__description">
+                      de freeCodeCamp.org, que representa aproximadamente 300 horas de trabajo de curso.
+                    </p>
+                  </div>
+                  <div class="certificate__content">
+                    <h3 class="certificate__title">
+                      Front End Development Libraries
+                    </h3>
+                    <p class="certificate__description">
+                      de freeCodeCamp.org, que representa aproximadamente 300 horas de trabajo de curso.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class="certificate-cv section-cv" id="certificate">
+                <h2 class="section-title-cv">CURSOS</h2>
+                <div class="certificate___container bd-grid-cv">
+                  <ul class="skills__data">
+                    <li class="skills__name">
+                      <span class="skills__circle"></span> <h3 class="cursos__title">Introducción a las redes neuronales</h3>
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span> <h3 class="cursos__title">Introducción al desarrollo móvil</h3>
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span> <h3 class="cursos__title">Instalación y Mantenimiento de Computadoras</h3>
+                    </li>
+                    <li class="skills__name">
+                      <span class="skills__circle"></span> <h3 class="cursos__title">Introducción al Analisis de datos con Python</h3>
+                    </li>
+                  </ul>
+                  <div style="height: 4px;"></div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/html2pdf.bundle.min.js"></script>
     <script type="module" src="main.js"></script>
   </body>
 </html>
