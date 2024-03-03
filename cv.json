@@ -1,0 +1,240 @@
+{
+  "basics": {
+    "name": "Raúl Gustavo Martínez",
+    "label": "Full Stack Developer",
+    "image": "/me.webp",
+    "email": "raulmartinez.desarrollador@gmail.com",
+    "phone": "+54 3878604796",
+    "url": "https://softwaredemo.com.ar",
+    "summary": "Cuento con una amplia experiencia en la creación de aplicaciónes web y móviles, abarcando desde el diseño UX/UI hasta el desarrollo del servidor backend y la gestión de múltiples bases de datos.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Salta, San Ramón de la nueva Orán",
+      "countryCode": "ES",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "midudev",
+        "url": "https://www.linkedin.com/in/raul-martinez-in/"
+      },
+      {
+        "network": "GitHub",
+        "username": "midudev",
+        "url": "https://github.com/gitRaulMartinez"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Safetynova",
+      "position": "Desarrollador web y movil",
+      "url": "https://safetynova.com",
+      "startDate": "2022-07-01",
+      "endDate": null,
+      "summary": "Mi experiencia laboral se centra en el desarrollo tanto web como móvil, con un enfoque especializado en el backend del servidor. Me especializo en la implementación de nuevas funcionalidades y mejoras para optimizar el rendimiento y la eficiencia del sistema.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Comité para la Prevención de la Tortura en Salta",
+      "position": "Desarrollador frontend",
+      "url": "https://comitecontralatorturasalta.com.ar",
+      "startDate": "2023-03-01",
+      "endDate": "2024-05-01",
+      "summary": "Desarrollé un sitio web dedicado a la prevención contra la tortura en Salta, que incluye un sistema de blog y reporte de denuncias.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Universidad Nacional de Salta - Facultad Orán",
+      "position": "Auxiliar docente de segunda categoría",
+      "url": "http://oran.unsa.edu.ar/",
+      "startDate": "2019-06-01",
+      "endDate": "2021-09-01",
+      "summary": "He trabajado como auxiliar docente para la asignatura de programación en la carrera de Técnico en Informática y Gestión.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universidad Nacional de Salta - Facultad Orán",
+    "url": "https://www.uoc.edu/portal/es/index.html",
+    "area": "Tecnicó Universitario en Programación",
+    "studyType": "Bachelor",
+    "startDate": "2015-01-01",
+    "endDate": "2023-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo movil", "Android"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo movil"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "CodeOran",
+      "isActive": false,
+      "description": "Desarrollo del seminario de mi carrera, plataforma de programación competitiva",
+      "highlights": [
+        "Proyecto seminario",
+        "Programación competitiva"
+      ],
+      "url": "https://github.com/gitRaulMartinez/codeoran"
+    },
+    {
+      "name": "Posts",
+      "isActive": false,
+      "description": "Plataforma para crear post y registros de usuarios",
+      "highlights": [
+        "Nodejs",
+        "Tailwindcss"
+      ],
+      "url": "https://github.com/gitRaulMartinez/final-project"
+    },
+    {
+      "name": "Rutas del sabor",
+      "isActive": false,
+      "description": "Plataforma realizada en python con frontend y backend, para cargar puntos en el mapa de restaurantes cargados manualmente.",
+      "highlights": [
+        "Python",
+        "Tkinter",
+        "Flask"
+      ],
+      "url": "https://github.com/gitRaulMartinez/rutas_del_sabor"
+    }
+  ]
+}
