@@ -7,6 +7,7 @@ import Experience from "@/components/sections/Experience.astro"
 import Hero from "@/components/sections/Hero.astro"
 import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
+import Certificates from "@/components/sections/Certificates.astro"
 
 import { basics } from "@cv"
 const { name, label } = basics
@@ -19,6 +20,7 @@ const { name, label } = basics
     <Experience />
     <Education />
 		<Skills />
+    <Certificates />
     <Projects />
   </main>
 </Layout>
@@ -38,7 +40,7 @@ const { name, label } = basics
 
   @media print {
     main {
-      padding: 2rem !important;
+      padding: 1rem !important;
     }
   }
 </style>

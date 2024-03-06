@@ -12,6 +12,13 @@ import Tailwind from "@/components/icons/Tailwind.astro"
 import { skills } from "@cv"
 import Kotlin from "@/components/icons/Kotlin.astro"
 import Flutter from "@/components/icons/Flutter.astro"
+import Vue from "@/components/icons/Vue.astro"
+import PostgresSQL from "@/components/icons/PostgresSQL.astro"
+import SQLite from "@/components/icons/SQLite.astro"
+import Mongodb from "@/components/icons/Mongodb.astro"
+import Springboot from "@/components/icons/Springboot.astro"
+import Java from "@/components/icons/Java.astro"
+import Python from "@/components/icons/Python.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -19,8 +26,15 @@ const SKILLS_ICONS: Record<string, any> = {
   JavaScript,
   TypeScript,
   React,
+  Vue,
   Node,
+  Java,
+  Springboot,
+  Python,
   MySQL,
+  PostgresSQL,
+  SQLite,
+  Mongodb,
   Git,
   Tailwind,
   Kotlin,
@@ -62,5 +76,11 @@ const SKILLS_ICONS: Record<string, any> = {
     font-weight: 500;
     gap: 4px;
     padding: 0.2rem 0.6rem;
+  }
+
+  @media print {
+    li {
+      border: solid 1px #eee;
+    }
   }
 </style>
