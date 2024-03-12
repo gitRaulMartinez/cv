@@ -1,0 +1,52 @@
+---
+import Section from "./Section.astro"
+
+import Download from "./icons/Download.astro"
+---
+
+<Section>
+  <div class="position-link">
+    <a href="./raulmartinezcv.pdf" class="link" download>
+      <span>Descargar CV</span>
+      <Download />
+    </a>
+  </div>
+</Section>
+
+
+<style>
+  .position-link {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+  }
+
+  .position-link .link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(22, 22, 22);
+    border-radius: 100rem;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.1s linear;
+  }
+
+  .position-link .link span {
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+
+  .position-link .link:hover {
+    background-color: #292929;
+  }
+
+  @media print {
+    .position-link {
+      display: none;
+    }
+  }
+</style>
