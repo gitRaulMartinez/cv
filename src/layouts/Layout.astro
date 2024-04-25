@@ -87,6 +87,12 @@ const { title } = Astro.props;
     display: none !important;
   }
 
+  @media (width <= 700px) {
+    p {
+      font-size: 0.8525rem;
+    }
+  }
+
   @media print {
     .no-print {
       display: none !important;
