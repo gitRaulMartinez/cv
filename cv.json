@@ -3,7 +3,7 @@
     "name": "Raúl Gustavo Martínez",
     "label": "Desarrollador Full Stack",
     "image": "/me.webp",
-    "email": "raulmartinez.desarrollador@gmail.com",
+    "email": "rauldeoran17@gmail.com",
     "phone": "+54 3878604796",
     "url": "https://softwaredemo.com.ar",
     "summary": "Cuento con una amplia experiencia en la creación de aplicaciónes web y móviles, abarcando desde el desarrollo frontend hasta el desarrollo del backend y la gestión de múltiples bases de datos.",
@@ -34,7 +34,7 @@
       "url": "https://safetynova.com",
       "startDate": "2022-07-01",
       "endDate": null,
-      "summary": "Mi experiencia laboral se centra en el desarrollo tanto web como móvil, con un enfoque especializado en el backend del servidor. Me especializo en la implementación de nuevas funcionalidades y mejoras para optimizar el rendimiento y la eficiencia del sistema.",
+      "summary": "Desarrollo de sistemas digitales para el registro de inspecciones, accidentes y auditorías, optimizando procesos y facilitando la gestión y seguimiento de datos de manera eficiente.",
       "highlights": [
         "Started the company"
       ]
@@ -45,7 +45,7 @@
       "url": "https://comitecontralatorturasalta.com.ar",
       "startDate": "2023-03-01",
       "endDate": "2024-05-01",
-      "summary": "Desarrollé un sitio web dedicado a la prevención contra la tortura en Salta, que incluye un sistema de blog y reporte de denuncias.",
+      "summary": "Desarrollo de un sitio web sobre prevención contra la tortura en Salta, con sistema de blog y reporte de denuncias.",
       "highlights": [
         "Started the company"
       ]
@@ -56,7 +56,18 @@
       "url": "http://oran.unsa.edu.ar/",
       "startDate": "2019-06-01",
       "endDate": "2021-09-01",
-      "summary": "He trabajado como auxiliar docente para la asignatura de programación en la carrera de Técnico en Informática y Gestión.",
+      "summary": "Auxiliar docente en la asignatura de Programación para la carrera Técnico en Informática y Gestión.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Municipalidad de Orán",
+      "position": "Desarrollador web",
+      "url": "http://oran.gob.ar/",
+      "startDate": "2023-05-01",
+      "endDate": "2023-06-15",
+      "summary": "Desarrollo de la página principal de la Municipalidad de Orán en WordPress.",
       "highlights": [
         "Started the company"
       ]
