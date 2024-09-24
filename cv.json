@@ -40,6 +40,17 @@
       ]
     },
     {
+      "name": "Municipalidad de Orán",
+      "position": "Desarrollador web",
+      "url": "http://oran.gob.ar/",
+      "startDate": "2024-05-01",
+      "endDate": "2024-06-15",
+      "summary": "Desarrollo de la página principal de la Municipalidad de Orán en WordPress.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
       "name": "Comité para la Prevención de la Tortura en Salta",
       "position": "Desarrollador frontend",
       "url": "https://comitecontralatorturasalta.com.ar",
@@ -57,17 +68,6 @@
       "startDate": "2019-06-01",
       "endDate": "2021-09-01",
       "summary": "Auxiliar docente en la asignatura de Programación para la carrera Técnico en Informática y Gestión.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Municipalidad de Orán",
-      "position": "Desarrollador web",
-      "url": "http://oran.gob.ar/",
-      "startDate": "2023-05-01",
-      "endDate": "2023-06-15",
-      "summary": "Desarrollo de la página principal de la Municipalidad de Orán en WordPress.",
       "highlights": [
         "Started the company"
       ]
