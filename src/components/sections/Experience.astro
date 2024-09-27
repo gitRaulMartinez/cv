@@ -29,7 +29,6 @@ import { work } from "@cv"
 
                   <time>{years}</time>
                 </header>
-
                 <footer>
                   <p>{summary}</p>
                 </footer>
@@ -88,7 +87,11 @@ import { work } from "@cv"
 
   @media print {
     ul {
-      gap: 16px !important;
+      gap: 12px !important;
+    }
+
+    header {
+      margin-bottom: 0px;
     }
   }
 </style>

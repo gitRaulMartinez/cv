@@ -288,7 +288,7 @@
     {
       "name": "CodeOran",
       "isActive": false,
-      "description": "Desarrollo del seminario de mi carrera, plataforma de programación competitiva",
+      "description": "Desarrollo del proyecto final de mi carrera de Técnico Universitario en Programación",
       "highlights": [
         "Proyecto seminario",
         "Programación competitiva"
@@ -298,7 +298,7 @@
     {
       "name": "Posts",
       "isActive": false,
-      "description": "Plataforma para crear post y registros de usuarios",
+      "description": "Plataforma web para crear publicaciones y registrar usuarios, desarrollada con Node.js para mi certificación en Telecom IT.",
       "highlights": [
         "Nodejs",
         "Tailwindcss"
@@ -308,7 +308,7 @@
     {
       "name": "Rutas del sabor",
       "isActive": false,
-      "description": "Plataforma realizada en python con frontend y backend, para cargar puntos en el mapa de restaurantes cargados manualmente.",
+      "description": "Aplicación para visualizar puntos de restaurantes en un mapa, desarrollada con Python utilizando Flask para el backend y Tkinter para el frontend, con carga manual de datos.",
       "highlights": [
         "Python",
         "Tkinter",
