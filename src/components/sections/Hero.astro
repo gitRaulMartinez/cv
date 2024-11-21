@@ -178,4 +178,20 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       margin: 0 auto;
     }
   }
+
+  @media print {
+    footer {
+      margin-top: 0;
+    }
+    img {
+      width: 100px;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
 </style>
