@@ -6,7 +6,7 @@
     "email": "rauldeoran17@gmail.com",
     "phone": "+54 3878604796",
     "url": "https://softwaredemo.com.ar",
-    "summary": "Cuento con una amplia experiencia en la creación de aplicaciónes web y móviles, abarcando desde el desarrollo frontend hasta el desarrollo del backend y la gestión de múltiples bases de datos.",
+    "summary": "Desarrollador con más de 3 años de experiencia en aplicaciones web y móviles, abarcando frontend, backend y gestión de bases de datos. Trabajo con multiples tecnologías. Siempre busco nuevos desafíos para seguir creciendo y aportar soluciones innovadoras.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -17,12 +17,12 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
+        "username": "Raúl Martinez",
         "url": "https://www.linkedin.com/in/raul-martinez-in/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "Raúl Martinez",
         "url": "https://github.com/gitRaulMartinez"
       }
     ]
@@ -73,17 +73,6 @@
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
     "institution": "Universidad Nacional de Salta - Facultad Regional Orán",
     "url": "https://www.uoc.edu/portal/es/index.html",

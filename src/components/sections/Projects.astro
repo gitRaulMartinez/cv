@@ -138,7 +138,7 @@ import { projects } from "@cv"
     }
   }
 
-  @media (width <= 700px) {
+  @media (width <= 400px) {
     .top {
       flex-direction: column;
       justify-content: flex-start;
@@ -148,6 +148,10 @@ import { projects } from "@cv"
   }
 
   @media print {
+    .top {
+      margin-bottom: 2px;
+    }
+
     article h3 span {
       animation-name: none;
     }
@@ -159,6 +163,14 @@ import { projects } from "@cv"
     article p {
       font-size: 0.8rem;
       line-height: 1rem;
+    }
+
+    h3 {
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      padding: 0.1rem 0.25rem;
     }
   }
 </style>
