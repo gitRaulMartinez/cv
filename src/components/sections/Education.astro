@@ -11,7 +11,7 @@ import { education } from "@cv"
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = `${startYear} - ${endYear}`
+        const years = `${endYear}`
 
         return (
           <li>
@@ -58,6 +58,7 @@ import { education } from "@cv"
     color: #555;
     font-size: 0.85rem;
     min-width: 102px;
+    text-align: end;
   }
 
   @media (width <= 700px) {

@@ -1,7 +1,8 @@
 {
   "basics": {
     "name": "Raúl Gustavo Martínez",
-    "label": "Desarrollador Full Stack",
+    "work": "Desarrollador Full Stack",
+    "label": "Frontend | Backend | Diseño UI/UX | Android",
     "image": "/me.webp",
     "email": "rauldeoran17@gmail.com",
     "phone": "+54 3878604796",
@@ -30,7 +31,7 @@
   "work": [
     {
       "name": "Safetynova",
-      "position": "Desarrollador web y movil",
+      "position": "Desarrollador Web y Movil - Angular · NodeJS · Flutter",
       "url": "https://safetynova.com",
       "startDate": "2022-07-01",
       "endDate": "2024-11-01",
@@ -41,7 +42,7 @@
     },
     {
       "name": "Municipalidad de Orán",
-      "position": "Desarrollador web",
+      "position": "Desarrollador Web - Wordpress",
       "url": "http://oran.gob.ar/",
       "startDate": "2024-05-01",
       "endDate": "2024-06-15",
@@ -52,7 +53,7 @@
     },
     {
       "name": "Comité para la Prevención de la Tortura en Salta",
-      "position": "Desarrollador frontend",
+      "position": "Desarrollador Web - Vue · NodeJs",
       "url": "https://comitecontralatorturasalta.com.ar",
       "startDate": "2023-03-01",
       "endDate": "2024-05-01",

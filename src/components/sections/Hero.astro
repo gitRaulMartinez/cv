@@ -8,7 +8,7 @@ import GitHub from "@/components/icons/Github.astro"
 import WorldMap from "@/components/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles, phone, email, work } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -26,60 +26,62 @@ const printInfo = [email, phone, "raulmartinez.me"].filter(Boolean).join(" • "
   <div class="container">
     <div class="info">
       <h1>{name}</h1>
-      <h2>{label}</h2>
+      <h2>{work}</h2>
       <span>
-        <WorldMap />
-        {region}, {city}
+        {label}
       </span>
-      <footer class="print">
-        {printInfo}
-      </footer>
-      <footer class="no-print">
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Mail />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a
-              href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
-            </a>
-          )
-        }
-        {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network]
-
-            return (
-              <a
-                href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon />
-              </a>
-            )
-          })
-        }
-      </footer>
     </div>
     <figure>
       <img src={image} alt={name} />
     </figure>
+  </div>
+  <div class="social-info">
+    <footer class="print">
+      {printInfo}
+    </footer>
+    <footer class="no-print">
+      {
+        email && (
+          <a
+            href={`mailto:${email}`}
+            title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Mail />
+          </a>
+        )
+      }
+      {
+        phone && (
+          <a
+            href={`tel:${phone}`}
+            title={`Llamar por teléfono a ${name} al número ${phone}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Phone />
+          </a>
+        )
+      }
+      {
+        profiles.map(({ network, url, username }) => {
+          const Icon = SOCIAL_ICONS[network]
+
+          return (
+            <a
+              href={url}
+              title={`Visitar el perfil de ${name} en ${network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon />
+            </a>
+          )
+        })
+      }
+    </footer>
+    <div class="pattern-bg"></div>
   </div>
 </Section>
 
@@ -99,14 +101,31 @@ const printInfo = [email, phone, "raulmartinez.me"].filter(Boolean).join(" • "
     padding-right: 32px;
   }
 
+  .social-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .pattern-bg {
+    background-image: radial-gradient(circle at center, rgb(68, 68, 68) 1px, transparent 1px);
+    background-size: 10px 10px;
+    background-repeat: repeat;
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
   h1 {
-    font-size: 2rem;
+    font-size: 2.75rem;
   }
 
   h2 {
-    color: #444;
-    font-weight: 500;
-    font-size: 1.1rem;
+    color: #252525;
+    font-weight: 400;
+    font-size: 1.25rem;
     text-wrap: balance;
   }
 
@@ -123,15 +142,13 @@ const printInfo = [email, phone, "raulmartinez.me"].filter(Boolean).join(" • "
     align-items: center;
     gap: 0.25rem;
     font-size: 0.85rem;
-    letter-spacing: -0.05rem;
   }
 
   footer {
     color: #2b2b2b;
-    font-size: 0.65rem;
+    font-size: 0.85rem;
     display: flex;
     gap: 4px;
-    margin-top: 8px;
   }
 
   footer a {
@@ -148,8 +165,7 @@ const printInfo = [email, phone, "raulmartinez.me"].filter(Boolean).join(" • "
   }
 
   footer a:hover {
-    border: 1px solid #ddd;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid #111;
   }
 
   @media (width <= 600px) {
@@ -162,6 +178,7 @@ const printInfo = [email, phone, "raulmartinez.me"].filter(Boolean).join(" • "
       align-items: center;
       padding-right: 0;
       text-align: center;
+      margin-bottom: 1rem;
     }
 
     figure {
@@ -182,6 +199,7 @@ const printInfo = [email, phone, "raulmartinez.me"].filter(Boolean).join(" • "
   @media print {
     footer {
       margin-top: 0;
+      font-size: .85rem;
     }
     img {
       width: 100px;
@@ -192,6 +210,11 @@ const printInfo = [email, phone, "raulmartinez.me"].filter(Boolean).join(" • "
 
     h2 {
       font-size: 1.2rem;
+    }
+    .pattern-bg {
+      height: 20px;
+      clip-path: none;
+      max-width: 150px;
     }
   }
 </style>
